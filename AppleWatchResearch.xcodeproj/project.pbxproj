@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C93C105101DB9A812EC36FB /* SlideKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7D96937F87FE9CF5C7BE4C8E /* SlideKit */; };
+		24203D94FFCB5B65611E85E7 /* AppleWatchResearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36074B084E795E1097B3B4B /* AppleWatchResearchApp.swift */; };
+		2C8952A70FBDDB63878A7D5F /* SampleSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B78A8BF185A59BFE6AC5803 /* SampleSlide.swift */; };
+		35C7EC17D874A54167129CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FFE710B89C85151C9380351 /* Assets.xcassets */; };
+		F2EE1ECA0DA379A8FE85C86A /* SlideConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70020021052BF67BD648EFFA /* SlideConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		119322F3A06512DB1D818FAF /* AppleWatchResearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchResearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14B721A16C4BCBC7D96F0895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		271892815E564BEEF487FF83 /* AppleWatchResearch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppleWatchResearch.entitlements; sourceTree = "<group>"; };
+		70020021052BF67BD648EFFA /* SlideConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideConfiguration.swift; sourceTree = "<group>"; };
+		8FFE710B89C85151C9380351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B78A8BF185A59BFE6AC5803 /* SampleSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSlide.swift; sourceTree = "<group>"; };
+		A36074B084E795E1097B3B4B /* AppleWatchResearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchResearchApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E79EEA9C421AFBBD030B7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C93C105101DB9A812EC36FB /* SlideKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1812A086B986A8DB00AD6961 /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				9B78A8BF185A59BFE6AC5803 /* SampleSlide.swift */,
+			);
+			path = Slides;
+			sourceTree = "<group>";
+		};
+		3C9D90F85A1C2192E4F749E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				119322F3A06512DB1D818FAF /* AppleWatchResearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49800A35E4D8B5808DE094CB = {
+			isa = PBXGroup;
+			children = (
+				CD6163D6A4C91A40C1D4D349 /* AppleWatchResearch */,
+				3C9D90F85A1C2192E4F749E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6163D6A4C91A40C1D4D349 /* AppleWatchResearch */ = {
+			isa = PBXGroup;
+			children = (
+				271892815E564BEEF487FF83 /* AppleWatchResearch.entitlements */,
+				A36074B084E795E1097B3B4B /* AppleWatchResearchApp.swift */,
+				8FFE710B89C85151C9380351 /* Assets.xcassets */,
+				14B721A16C4BCBC7D96F0895 /* Info.plist */,
+				70020021052BF67BD648EFFA /* SlideConfiguration.swift */,
+				1812A086B986A8DB00AD6961 /* Slides */,
+			);
+			path = AppleWatchResearch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F2E997C18EC47230BC84ED9 /* AppleWatchResearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B392E758F5B45526561ACED /* Build configuration list for PBXNativeTarget "AppleWatchResearch" */;
+			buildPhases = (
+				0846141BE72E9F47B7BB3743 /* Sources */,
+				DFC0385AF3E46D7C6434855C /* Resources */,
+				0E79EEA9C421AFBBD030B7D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleWatchResearch;
+			packageProductDependencies = (
+				7D96937F87FE9CF5C7BE4C8E /* SlideKit */,
+			);
+			productName = AppleWatchResearch;
+			productReference = 119322F3A06512DB1D818FAF /* AppleWatchResearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15CDC1388D4FE360A428942F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 80134F67D34C4647CEBE259A /* Build configuration list for PBXProject "AppleWatchResearch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 49800A35E4D8B5808DE094CB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				090149692EF65F61CC5B8102 /* XCRemoteSwiftPackageReference "SlideKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F2E997C18EC47230BC84ED9 /* AppleWatchResearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFC0385AF3E46D7C6434855C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35C7EC17D874A54167129CC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0846141BE72E9F47B7BB3743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24203D94FFCB5B65611E85E7 /* AppleWatchResearchApp.swift in Sources */,
+				2C8952A70FBDDB63878A7D5F /* SampleSlide.swift in Sources */,
+				F2EE1ECA0DA379A8FE85C86A /* SlideConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		131EE1509240145F1E8B552A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6E0EAE3E3C78A24D38FB413B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = AppleWatchResearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.AppleWatchResearch;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDD9F9C635F49A5C895A2085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = AppleWatchResearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.mtj0928.SlideGen.AppleWatchResearch;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2FC85FE992784902D0481FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B392E758F5B45526561ACED /* Build configuration list for PBXNativeTarget "AppleWatchResearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0EAE3E3C78A24D38FB413B /* Debug */,
+				CDD9F9C635F49A5C895A2085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80134F67D34C4647CEBE259A /* Build configuration list for PBXProject "AppleWatchResearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131EE1509240145F1E8B552A /* Debug */,
+				D2FC85FE992784902D0481FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		090149692EF65F61CC5B8102 /* XCRemoteSwiftPackageReference "SlideKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mtj0928/SlideKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D96937F87FE9CF5C7BE4C8E /* SlideKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 090149692EF65F61CC5B8102 /* XCRemoteSwiftPackageReference "SlideKit" */;
+			productName = SlideKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 15CDC1388D4FE360A428942F /* Project object */;
+}
